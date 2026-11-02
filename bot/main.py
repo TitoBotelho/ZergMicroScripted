@@ -34,7 +34,7 @@ class MyBot(AresBot):
 
         target: Point2 = self.attack_target
 
-        # Send all non-structure units, including Probes, to attack.
+        # Send all non-structure units, including workers, to attack.
         combat_units: Units = self.units.filter(
             lambda u: not u.is_structure
         )

@@ -5,8 +5,8 @@
 # Custom values not used by ares-sc2
 # Put your own things personal to your bot here
 
-MyBotName: TerranMicroScripted
-MyBotRace: Terran
+MyBotName: ZergMicroScripted
+MyBotRace: Zerg
 ########################
 
 UseData: False

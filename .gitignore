@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Required precompiled Ares helper modules shipped with this repository
+!/ares-sc2/sc2_helper/sc2_helper.cp*-win_amd64.pyd
+!/ares-sc2/sc2_helper/sc2_helper.cpython-*-darwin.so
+!/ares-sc2/sc2_helper/sc2_helper.cpython-*-x86_64-linux-gnu.so
+
 # Distribution / packaging
 .Python
 build/

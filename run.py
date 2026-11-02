@@ -31,7 +31,7 @@ MY_BOT_RACE: str = "MyBotRace"
 
 def main():
     bot_name: str = "MyBot"
-    race: Race = Race.Terran
+    race: Race = Race.Zerg
 
     __user_config_location__: str = path.abspath(".")
     user_config_path: str = path.join(__user_config_location__, CONFIG_FILE)
